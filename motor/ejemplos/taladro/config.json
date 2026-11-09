@@ -1,0 +1,22 @@
+{
+  "out": "taladro.mp4",
+  "tail": 0.3,
+  "segs": [
+    [0.0, 3.48, "clip.mp4", "clip"],
+    [3.48, 8.74, "img/t2.png", "zoom_to", {"fx": 0.5, "fy": 0.25, "z": 0.35}],
+    [8.74, 13.66, "img/t3.png", "punch", {"fy": 0.45}],
+    [13.66, 24.9, "img/t4.png", "zoom_to", {"fx": 0.55, "fy": 0.55, "z": 0.3}],
+    [24.9, 99, "img/t5.png", "zoom_in"]
+  ],
+  "tags": [
+    [4.7, 8.6, "CABLES", 420, "Tag"],
+    [7.42, 8.6, "TUBERÍAS", 540, "Tag"],
+    [9.9, 11.3, "¡CHISPAZO!", 300, "Big"],
+    [17.48, 21.0, "VERTICAL", 420, "Tag"],
+    [18.34, 21.0, "HORIZONTAL", 540, "Tag"],
+    [21.6, 24.8, "NUNCA ENCIMA NI DEBAJO", 420, "Tag"],
+    [26.4, 29.9, "DETECTOR ≈ 20 €", 380, "Tag"]
+  ],
+  "sfx": [["sfx/drill.mp3", 0.0, 0.6], ["sfx/zap.mp3", 9.85, 1.0], ["sfx/beep.mp3", 26.4, 0.7], ["sfx/ding.mp3", 28.6, 0.6]],
+  "key": ["dentro", "cables", "tuberías", "chispazo", "apagón", "agua", "truco", "recta", "vertical", "horizontal", "nunca", "detector", "euros", "20"]
+}

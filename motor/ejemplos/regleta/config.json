@@ -1,0 +1,24 @@
+{
+  "out": "regleta.mp4",
+  "tail": 0.3,
+  "segs": [
+    [0.0, 4.92, "clip.mp4", "clip"],
+    [4.92, 10.78, "img/r2.png", "zoom_to", {"fx": 0.5, "fy": 0.35, "z": 0.35}],
+    [10.78, 16.2, "img/r3.png", "zoom_to", {"fx": 0.45, "fy": 0.7, "z": 0.3}],
+    [16.2, 19.78, "img/r4.png", "punch", {"fy": 0.5}],
+    [19.78, 25.04, "img/r1.png", "zoom_to", {"fx": 0.4, "fy": 0.55, "z": 0.4}],
+    [25.04, 33.42, "img/r5.png", "zoom_in"],
+    [33.42, 99, "img/r1.png", "zoom_out"]
+  ],
+  "tags": [
+    [8.2, 10.7, "MÁX. ≈ 3.500 W", 380, "Tag"],
+    [11.9, 16.1, "ESTUFA ≈ 2.000 W", 380, "Tag"],
+    [13.6, 16.1, "+ SECADOR", 500, "Tag"],
+    [18.06, 19.7, "¡FUEGO!", 320, "Big"],
+    [21.4, 24.9, "EN CADENA = PEOR", 420, "Tag"],
+    [27.0, 31.3, "DIRECTO A LA PARED", 360, "Tag"]
+  ],
+  "sfx": [["sfx/buzz.mp3", 0.3, 0.6], ["sfx/buzz.mp3", 14.7, 0.8], ["sfx/zap.mp3", 16.2, 0.7], ["sfx/ding.mp3", 25.2, 0.6], ["sfx/plug.mp3", 29.6, 0.8]],
+  "fixes": {"3 .500": "3.500", "2 .000.": "2.000.", "Sumale": "Súmale", "ponen": "pone en"},
+  "key": ["regleta", "otra", "dentro", "3.500", "vatios", "estufa", "2.000.", "secador", "derrite", "ardiendo", "peor", "mismo", "bomberos", "directos", "pared", "mesa"]
+}
