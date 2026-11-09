@@ -1,0 +1,346 @@
+{
+ "brand": "EXPEDIENTE OSCURO",
+ "grain": 0.07,
+ "scratches": false,
+ "tint": "rgba(40,30,100,0.16)",
+ "shots": [
+  {
+   "seq": "clip/%04d.jpg",
+   "n": 121,
+   "fps": 24,
+   "at": 0,
+   "move": "in",
+   "amt": 0.3,
+   "tr": "black"
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 0,
+    "w": "señal",
+    "d": -0.15
+   },
+   "move": "panU",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 0,
+    "w": "astrónomo",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.6,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 1
+   },
+   "move": "push",
+   "amt": 0.9,
+   "shake": 0.4
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 2
+   },
+   "move": "panU",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/03.jpg",
+   "at": {
+    "l": 3
+   },
+   "move": "in",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 3,
+    "w": "columnas",
+    "d": -0.15
+   },
+   "move": "panD",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 3,
+    "w": "pronto",
+    "d": -0.3
+   },
+   "move": "push",
+   "amt": 0.8,
+   "fx": "flicker"
+  },
+  {
+   "img": "cimg/05.jpg",
+   "at": {
+    "l": 4
+   },
+   "move": "push",
+   "amt": 0.6,
+   "shake": 0.6,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/05.jpg",
+   "at": {
+    "l": 5
+   },
+   "move": "in",
+   "fx": "flicker"
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 5,
+    "w": "setenta",
+    "d": -0.15
+   },
+   "move": "panR",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/06.jpg",
+   "at": {
+    "l": 6
+   },
+   "move": "in",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 7
+   },
+   "move": "push",
+   "amt": 0.5,
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/08.jpg",
+   "at": {
+    "l": 7,
+    "w": "desde",
+    "d": -0.15
+   },
+   "move": "in",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/08.jpg",
+   "at": {
+    "l": 7,
+    "w": "nunca",
+    "d": -0.3
+   },
+   "move": "push",
+   "amt": 0.8
+  },
+  {
+   "img": "cimg/09.jpg",
+   "at": {
+    "l": 8
+   },
+   "move": "panU",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/10.jpg",
+   "at": {
+    "l": 8,
+    "w": "nube",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.6,
+   "shake": 0.5,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/11.jpg",
+   "at": {
+    "l": 9
+   },
+   "move": "out",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/09.jpg",
+   "at": {
+    "l": 9,
+    "w": "alguien",
+    "d": -0.3
+   },
+   "move": "in",
+   "amt": 0.6,
+   "fx": "glitchy",
+   "tr": "glitch"
+  }
+ ],
+ "pulses": [
+  {
+   "l": 1,
+   "w": "wow",
+   "d": 0
+  },
+  {
+   "l": 4,
+   "w": "ruido",
+   "d": 0
+  },
+  {
+   "l": 7,
+   "w": "nunca",
+   "d": 0
+  },
+  {
+   "l": 9,
+   "w": "alguien",
+   "d": 0
+  }
+ ],
+ "flashes": [
+  {
+   "l": 1,
+   "w": "wow",
+   "d": 0
+  },
+  {
+   "l": 4,
+   "w": "seis",
+   "d": 0
+  }
+ ],
+ "chapters": [
+  [
+   0,
+   "HISTORIA REAL"
+  ],
+  [
+   2,
+   "OHIO · 1977"
+  ],
+  [
+   4,
+   "LA SEÑAL"
+  ],
+  [
+   7,
+   "SILENCIO"
+  ],
+  [
+   8,
+   "LA EXPLICACIÓN"
+  ],
+  [
+   9,
+   "¿Y TÚ?"
+  ]
+ ],
+ "accent": [
+  "extraña",
+  "palabra.",
+  "wow…",
+  "vida",
+  "inteligente.",
+  "ruido.",
+  "pronto…",
+  "treinta",
+  "setenta",
+  "hidrógeno,",
+  "civilización",
+  "rojo",
+  "«wow»",
+  "nunca",
+  "repetido.",
+  "natural:",
+  "muerta.",
+  "definitivas.",
+  "naturaleza…",
+  "llamando?"
+ ],
+ "cards": [
+  {
+   "from": {
+    "l": 4,
+    "w": "seis",
+    "d": 0
+   },
+   "to": {
+    "l": 5
+   },
+   "icon": "!",
+   "iconSize": 44,
+   "title": "6EQUJ5",
+   "sub": "La señal Wow! · 15/08/1977",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 5,
+    "w": "setenta",
+    "d": 0.1
+   },
+   "to": {
+    "l": 6
+   },
+   "icon": "72",
+   "iconSize": 34,
+   "title": "72 SEGUNDOS",
+   "sub": "~30 veces sobre el fondo",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 6,
+    "w": "hidrógeno",
+    "d": 0.1
+   },
+   "to": {
+    "l": 7
+   },
+   "icon": "H",
+   "iconSize": 44,
+   "title": "1420 MHz",
+   "sub": "La línea del hidrógeno",
+   "color": "#33e0ff"
+  },
+  {
+   "from": {
+    "l": 8,
+    "w": "propuso",
+    "d": 0.1
+   },
+   "to": {
+    "l": 9
+   },
+   "icon": "?",
+   "iconSize": 44,
+   "title": "HIPÓTESIS 2024",
+   "sub": "Nube de hidrógeno + magnetar",
+   "color": "#33e0ff"
+  },
+  {
+   "from": {
+    "l": 9,
+    "w": "llamando",
+    "d": 0.2
+   },
+   "to": "end",
+   "icon": "?",
+   "iconSize": 44,
+   "title": "¿NATURALEZA O ALGUIEN?",
+   "sub": "Te leo en comentarios",
+   "color": "#c1121f"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+import json, sys
+sys.path.insert(0, '/home/claude/engine'); sys.path.insert(0, '/home/claude'); sys.path.insert(0, '/home/claude/miedo')
+from sfx import *
+from music import bed as horror_bed
+tl = json.load(open('timeline.json')); L = tl['lines']; N = int((tl['dur'] + 0.3) * SR)
+W_ = lambda i, s: next((w['s'] for w in L[i]['words'] if s in w['w'].lower()), L[i]['words'][0]['s'])
+vo = np.zeros(N); sfx = np.zeros(N)
+put(vo, 0, load_vo('vo.wav'))
+for i in range(1, len(L)): put(sfx, L[i]['s'] - 0.45, whoosh(), 0.25)
+put(sfx, 0, wind(L[2]['s']), 0.35); put(sfx, L[4]['s'], wind(L[5]['s'] - L[4]['s']), 0.4)
+put(sfx, W_(0, 'rajaron'), slide(), 0.7); put(sfx, W_(0, 'corriendo'), boom(1.0, 55), 0.5)
+put(sfx, W_(0, 'descalzos'), heartbeat(), 0.5); put(sfx, W_(0, 'cero'), heartbeat(), 0.5)
+put(sfx, W_(1, 'volvió'), boom(2.0, 36), 0.8)
+put(sfx, W_(3, 'fotos'), blip(2200), 0.3); put(sfx, W_(3, 'fotos') + 0.12, thud(), 0.3)
+for k in range(5): put(sfx, W_(4, 'aterrorizó') + k * 0.6, heartbeat(), 0.45)
+put(sfx, W_(4, 'botas'), boom(1.0, 50), 0.5)
+put(sfx, W_(6, 'fracturas'), thud(), 0.7)
+rc = np.random.default_rng(3)
+for k in range(40): put(sfx, W_(7, 'radiactividad') - 0.3 + rc.random() * 2.2, blip(3000 + rc.random() * 800), 0.12)
+put(sfx, W_(7, 'irresistible'), stamp(), 0.9)
+put(sfx, W_(8, 'militares'), boom(1.0, 60), 0.4); put(sfx, W_(8, 'yeti'), boom(1.0, 42), 0.5); put(sfx, W_(8, 'luces'), riser(1.2), 0.3)
+put(sfx, W_(9, 'avalancha'), riser(0.6), 0.4); put(sfx, W_(9, 'avalancha') + 0.5, boom(1.8, 40), 0.9)
+for k in range(3): put(sfx, W_(10, 'crees') + 0.5 + k * 0.8, heartbeat(), 0.45)
+bd = horror_bed(N / SR, seed=5); bd = np.pad(bd, (0, max(0, N - len(bd))))[:N] * 0.24
+print('ok', master(vo, sfx, bd, duck=0.45))

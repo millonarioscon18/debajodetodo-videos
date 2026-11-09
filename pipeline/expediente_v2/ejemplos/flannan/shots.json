@@ -1,0 +1,326 @@
+{
+ "brand": "EXPEDIENTE OSCURO",
+ "grain": 0.07,
+ "scratches": false,
+ "tint": "rgba(30,40,90,0.18)",
+ "shots": [
+  {
+   "seq": "clip/%04d.jpg",
+   "n": 121,
+   "fps": 24,
+   "at": 0,
+   "move": "in",
+   "amt": 0.3,
+   "tr": "black"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 0,
+    "w": "rastro",
+    "d": -0.4
+   },
+   "move": "push",
+   "amt": 0.5,
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/03.jpg",
+   "at": {
+    "l": 1
+   },
+   "move": "panD",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 2,
+    "w": "barco",
+    "d": -0.15
+   },
+   "move": "in",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 3
+   },
+   "move": "push",
+   "amt": 0.7,
+   "shake": 0.5,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 4
+   },
+   "move": "panU",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/05.jpg",
+   "at": {
+    "l": 4,
+    "w": "sirena",
+    "d": -0.15
+   },
+   "move": "in",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/05.jpg",
+   "at": {
+    "l": 4,
+    "w": "nadie",
+    "d": -0.2
+   },
+   "move": "push",
+   "amt": 0.6,
+   "fx": "flicker"
+  },
+  {
+   "img": "cimg/06.jpg",
+   "at": {
+    "l": 5
+   },
+   "move": "panU",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/06.jpg",
+   "at": {
+    "l": 6
+   },
+   "move": "push",
+   "amt": 0.8,
+   "shake": 0.6,
+   "fx": "flicker",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/07.jpg",
+   "at": {
+    "l": 7
+   },
+   "move": "in",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/07.jpg",
+   "at": {
+    "l": 7,
+    "w": "abrigo",
+    "d": -0.5
+   },
+   "move": "push",
+   "amt": 0.8,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/08.jpg",
+   "at": {
+    "l": 8
+   },
+   "move": "in",
+   "fx": "glitchy",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/09.jpg",
+   "at": {
+    "l": 9
+   },
+   "move": "panD",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/10.jpg",
+   "at": {
+    "l": 9,
+    "w": "ola",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.7,
+   "shake": 1.2,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/11.jpg",
+   "at": {
+    "l": 10
+   },
+   "move": "out",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 10,
+    "w": "faro",
+    "d": -0.15
+   },
+   "move": "in",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/11.jpg",
+   "at": {
+    "l": 10,
+    "w": "crees",
+    "d": -0.15
+   },
+   "move": "out",
+   "tr": "fade"
+  }
+ ],
+ "pulses": [
+  {
+   "l": 0,
+   "w": "rastro",
+   "d": 0
+  },
+  {
+   "l": 3,
+   "w": "apagado",
+   "d": 0
+  },
+  {
+   "l": 4,
+   "w": "nadie",
+   "d": 0
+  },
+  {
+   "l": 7,
+   "w": "abrigo",
+   "d": 0
+  }
+ ],
+ "flashes": [
+  {
+   "l": 4,
+   "w": "bengala",
+   "d": 0
+  },
+  {
+   "l": 9,
+   "w": "ola",
+   "d": 0
+  }
+ ],
+ "chapters": [
+  [
+   0,
+   "HISTORIA REAL"
+  ],
+  [
+   1,
+   "ESCOCIA · 1900"
+  ],
+  [
+   4,
+   "EL RELEVO"
+  ],
+  [
+   7,
+   "DENTRO"
+  ],
+  [
+   8,
+   "LA LEYENDA"
+  ],
+  [
+   9,
+   "LO QUE SE SABE"
+  ],
+  [
+   10,
+   "¿Y TÚ?"
+  ]
+ ],
+ "accent": [
+  "tres",
+  "rastro.",
+  "solitario",
+  "raro.",
+  "apagado.",
+  "nadie",
+  "responde.",
+  "cerrada.",
+  "¿james?",
+  "¿thomas?",
+  "¿donald?",
+  "impermeable",
+  "abrigo.",
+  "leyendas:",
+  "nada",
+  "destrozado",
+  "gigante",
+  "tres.",
+  "quedarse",
+  "crees"
+ ],
+ "cards": [
+  {
+   "from": {
+    "l": 1,
+    "w": "flannan",
+    "d": 0.1
+   },
+   "to": {
+    "l": 3
+   },
+   "icon": "3",
+   "iconSize": 40,
+   "title": "ISLAS FLANNAN · 1900",
+   "sub": "James, Thomas y Donald",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 8,
+    "w": "nada",
+    "d": -0.1
+   },
+   "to": {
+    "l": 9
+   },
+   "icon": "!",
+   "iconSize": 44,
+   "title": "LEYENDA, NO HECHO",
+   "sub": "No sale en los informes",
+   "color": "#e0a020"
+  },
+  {
+   "from": {
+    "l": 9,
+    "w": "oficial",
+    "d": 0.1
+   },
+   "to": {
+    "l": 10
+   },
+   "icon": "~",
+   "iconSize": 44,
+   "title": "OLA GIGANTE",
+   "sub": "Explicación oficial",
+   "color": "#33a0ff"
+  },
+  {
+   "from": {
+    "l": 10,
+    "w": "crees",
+    "d": 0.2
+   },
+   "to": "end",
+   "icon": "?",
+   "iconSize": 44,
+   "title": "¿QUÉ LES PASÓ?",
+   "sub": "Te leo en comentarios",
+   "color": "#c1121f"
+  }
+ ]
+}

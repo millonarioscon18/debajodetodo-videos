@@ -1,0 +1,359 @@
+{
+ "brand": "EXPEDIENTE OSCURO",
+ "shots": [
+  {
+   "seq": "clip/%04d.jpg",
+   "n": 121,
+   "fps": 24,
+   "at": 0,
+   "move": "in",
+   "amt": 0.3,
+   "tr": "black"
+  },
+  {
+   "img": "cimg/06.jpg",
+   "at": {
+    "l": 0,
+    "w": "corriendo",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.6,
+   "shake": 0.8,
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 0,
+    "w": "descalzos",
+    "d": -0.1
+   },
+   "move": "panD",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/15.jpg",
+   "at": {
+    "l": 1
+   },
+   "move": "in",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/03.jpg",
+   "at": {
+    "l": 2
+   },
+   "move": "panR",
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 3
+   },
+   "move": "in"
+  },
+  {
+   "img": "cimg/05.jpg",
+   "at": {
+    "l": 4
+   },
+   "move": "push",
+   "amt": 0.7,
+   "fx": "flicker",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/06.jpg",
+   "at": {
+    "l": 4,
+    "w": "botas",
+    "d": -0.2
+   },
+   "move": "out",
+   "shake": 1.0,
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/08.jpg",
+   "at": {
+    "l": 5
+   },
+   "move": "in",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/07.jpg",
+   "at": {
+    "l": 5,
+    "w": "cedro",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.4
+  },
+  {
+   "img": "cimg/15.jpg",
+   "at": {
+    "l": 6
+   },
+   "move": "panU"
+  },
+  {
+   "img": "cimg/09.jpg",
+   "at": {
+    "l": 6,
+    "w": "fracturas",
+    "d": -0.2
+   },
+   "move": "in",
+   "tr": "glitch",
+   "fx": "flicker"
+  },
+  {
+   "img": "cimg/10.jpg",
+   "at": {
+    "l": 7
+   },
+   "move": "push",
+   "amt": 0.6,
+   "fx": "glitchy",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/11.jpg",
+   "at": {
+    "l": 8
+   },
+   "move": "panU",
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/12.jpg",
+   "at": {
+    "l": 8,
+    "w": "yeti",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.6,
+   "shake": 0.5,
+   "tr": "glitch",
+   "fx": "flicker"
+  },
+  {
+   "img": "cimg/11.jpg",
+   "at": {
+    "l": 8,
+    "w": "luces",
+    "d": -0.1
+   },
+   "move": "out",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/13.jpg",
+   "at": {
+    "l": 9
+   },
+   "move": "in",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/14.jpg",
+   "at": {
+    "l": 9,
+    "w": "avalancha",
+    "d": -0.1
+   },
+   "move": "push",
+   "amt": 0.7,
+   "shake": 1.0,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/15.jpg",
+   "at": {
+    "l": 10
+   },
+   "move": "in",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 10,
+    "w": "huyeron",
+    "d": -0.1
+   },
+   "move": "panU",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 10,
+    "w": "crees",
+    "d": -0.2
+   },
+   "move": "push",
+   "amt": 0.5,
+   "fx": "flicker",
+   "tr": "glitch"
+  }
+ ],
+ "pulses": [
+  {
+   "l": 1,
+   "w": "volvió"
+  },
+  {
+   "l": 7,
+   "w": "radiactividad"
+  },
+  {
+   "l": 6,
+   "w": "fracturas"
+  }
+ ],
+ "flashes": [
+  {
+   "l": 7,
+   "w": "irresistible"
+  }
+ ],
+ "chapters": [
+  [
+   0,
+   "HISTORIA REAL"
+  ],
+  [
+   2,
+   "URALES · 1959"
+  ],
+  [
+   4,
+   "ESA NOCHE"
+  ],
+  [
+   5,
+   "LA BÚSQUEDA"
+  ],
+  [
+   7,
+   "CASO CERRADO"
+  ],
+  [
+   8,
+   "LAS TEORÍAS"
+  ],
+  [
+   9,
+   "LA RESPUESTA"
+  ],
+  [
+   10,
+   "¿O NO?"
+  ]
+ ],
+ "accent": [
+  "desde",
+  "dentro.",
+  "descalzos.",
+  "cero.",
+  "ninguno",
+  "volvió.",
+  "urales.",
+  "diátlov.",
+  "anochecer.",
+  "aterrorizó",
+  "botas.",
+  "cedro.",
+  "fracturas",
+  "fuera.",
+  "radiactividad.",
+  "irresistible.",
+  "yeti.",
+  "militares.",
+  "frozen:",
+  "avalancha",
+  "dormían.",
+  "lejos.",
+  "noche?"
+ ],
+ "cards": [
+  {
+   "from": {
+    "l": 2,
+    "w": "urales"
+   },
+   "to": {
+    "l": 3
+   },
+   "icon": "9",
+   "iconSize": 40,
+   "title": "MONTES URALES · 1959",
+   "sub": "Expedición de Ígor Diátlov",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 6,
+    "w": "fracturas"
+   },
+   "to": {
+    "l": 7
+   },
+   "icon": "!",
+   "title": "FRACTURAS GRAVES",
+   "sub": "Casi sin heridas por fuera",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 7,
+    "w": "fuerza",
+    "d": -0.2
+   },
+   "to": {
+    "l": 8
+   },
+   "icon": "“",
+   "iconSize": 46,
+   "title": "«FUERZA NATURAL",
+   "sub": "IRRESISTIBLE»",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 9,
+    "w": "frozen"
+   },
+   "to": {
+    "l": 10
+   },
+   "icon": "❄",
+   "iconSize": 44,
+   "title": "SIMULACIÓN 2021",
+   "sub": "Una pequeña avalancha",
+   "color": "#33e0ff"
+  },
+  {
+   "from": {
+    "l": 10,
+    "w": "crees"
+   },
+   "to": "end",
+   "icon": "?",
+   "iconSize": 44,
+   "title": "¿QUÉ PASÓ DE VERDAD?",
+   "sub": "Te leo en comentarios",
+   "color": "#c1121f"
+  }
+ ],
+ "grain": 0.07,
+ "scratches": false,
+ "tint": "rgba(30,40,90,0.18)"
+}

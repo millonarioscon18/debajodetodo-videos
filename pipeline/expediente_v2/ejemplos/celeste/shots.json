@@ -1,0 +1,321 @@
+{
+ "brand": "EXPEDIENTE OSCURO",
+ "grain": 0.07,
+ "scratches": false,
+ "tint": "rgba(20,70,80,0.16)",
+ "shots": [
+  {
+   "seq": "clip/%04d.jpg",
+   "n": 121,
+   "fps": 24,
+   "at": 0,
+   "move": "in",
+   "amt": 0.3,
+   "tr": "black"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 0,
+    "w": "comida",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.5,
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/07.jpg",
+   "at": {
+    "l": 0,
+    "w": "nadie",
+    "d": -0.3
+   },
+   "move": "in",
+   "tr": "black",
+   "fx": "flicker"
+  },
+  {
+   "img": "cimg/02.jpg",
+   "at": {
+    "l": 1
+   },
+   "move": "push",
+   "amt": 0.6,
+   "shake": 0.8,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 2
+   },
+   "move": "panU",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/03.jpg",
+   "at": {
+    "l": 3
+   },
+   "move": "panR",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 4
+   },
+   "move": "in",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/05.jpg",
+   "at": {
+    "l": 4,
+    "w": "alcohol",
+    "d": -0.15
+   },
+   "move": "push",
+   "amt": 0.4
+  },
+  {
+   "img": "cimg/04.jpg",
+   "at": {
+    "l": 5
+   },
+   "move": "push",
+   "amt": 0.7,
+   "fx": "flicker",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/06.jpg",
+   "at": {
+    "l": 6
+   },
+   "move": "panD",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/07.jpg",
+   "at": {
+    "l": 6,
+    "w": "diario",
+    "d": -0.15
+   },
+   "move": "in"
+  },
+  {
+   "img": "cimg/08.jpg",
+   "at": {
+    "l": 7
+   },
+   "move": "out",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/09.jpg",
+   "at": {
+    "l": 8
+   },
+   "move": "push",
+   "amt": 0.6,
+   "shake": 0.6,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/10.jpg",
+   "at": {
+    "l": 8,
+    "w": "conan",
+    "d": -0.15
+   },
+   "move": "in",
+   "tr": "fade"
+  },
+  {
+   "img": "cimg/11.jpg",
+   "at": {
+    "l": 9
+   },
+   "move": "push",
+   "amt": 0.6,
+   "tr": "black"
+  },
+  {
+   "img": "cimg/12.jpg",
+   "at": {
+    "l": 10,
+    "w": "explosión",
+    "d": -0.15
+   },
+   "move": "in",
+   "shake": 0.7,
+   "tr": "flash"
+  },
+  {
+   "img": "cimg/12.jpg",
+   "at": {
+    "l": 11
+   },
+   "move": "push",
+   "amt": 0.8,
+   "shake": 1.2,
+   "fx": "red",
+   "tr": "glitch"
+  },
+  {
+   "img": "cimg/13.jpg",
+   "at": {
+    "l": 12
+   },
+   "move": "panR",
+   "tr": "black"
+  },
+  {
+   "img": "cimg/01.jpg",
+   "at": {
+    "l": 12,
+    "w": "crees",
+    "d": -0.15
+   },
+   "move": "out",
+   "tr": "fade"
+  }
+ ],
+ "pulses": [
+  {
+   "l": 0,
+   "w": "nadie",
+   "d": 0
+  },
+  {
+   "l": 5,
+   "w": "hola",
+   "d": 0
+  },
+  {
+   "l": 7,
+   "w": "ninguno",
+   "d": 0
+  },
+  {
+   "l": 11,
+   "w": "todos",
+   "d": 0
+  }
+ ],
+ "flashes": [
+  {
+   "l": 1,
+   "w": "capitán",
+   "d": 0
+  },
+  {
+   "l": 11,
+   "w": "todos",
+   "d": 0
+  }
+ ],
+ "chapters": [
+  [
+   0,
+   "HISTORIA REAL"
+  ],
+  [
+   2,
+   "ATLÁNTICO · 1872"
+  ],
+  [
+   4,
+   "A BORDO"
+  ],
+  [
+   6,
+   "LO QUE FALTA"
+  ],
+  [
+   8,
+   "LAS TEORÍAS"
+  ],
+  [
+   9,
+   "LA PISTA"
+  ],
+  [
+   12,
+   "¿Y TÚ?"
+  ]
+ ],
+ "accent": [
+  "nadie.",
+  "timón!",
+  "celeste.",
+  "diez",
+  "sangre.",
+  "pelea.",
+  "intacta.",
+  "bote",
+  "salvavidas.",
+  "diario",
+  "ninguno",
+  "piratas.",
+  "motín.",
+  "monstruo",
+  "inventado",
+  "barriles",
+  "vacíos.",
+  "explosión",
+  "¡ya!",
+  "viento",
+  "crees"
+ ],
+ "cards": [
+  {
+   "from": {
+    "l": 2,
+    "w": "celeste",
+    "d": 0.1
+   },
+   "to": {
+    "l": 4
+   },
+   "icon": "1",
+   "iconSize": 40,
+   "title": "MARY CELESTE · 1872",
+   "sub": "Capitán, su familia y 7 marineros",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 9,
+    "w": "barriles",
+    "d": 0.1
+   },
+   "to": {
+    "l": 10,
+    "w": "explosión",
+    "d": -0.15
+   },
+   "icon": "9",
+   "iconSize": 40,
+   "title": "9 BARRILES VACÍOS",
+   "sub": "De 1.701 de alcohol",
+   "color": "#c1121f"
+  },
+  {
+   "from": {
+    "l": 12,
+    "w": "crees",
+    "d": 0.2
+   },
+   "to": "end",
+   "icon": "?",
+   "iconSize": 44,
+   "title": "¿QUÉ PASÓ DE VERDAD?",
+   "sub": "Te leo en comentarios",
+   "color": "#c1121f"
+  }
+ ]
+}
